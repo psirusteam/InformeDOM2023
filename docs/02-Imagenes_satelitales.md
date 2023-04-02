@@ -343,156 +343,25 @@ readRDS("../map_temp/data/temp_luces_mean.rds")), inner_join) %>%
 tba(head(satelital_promedio, 15))
 ```
 
-<table class="table table-striped lightable-classic" style="width: auto !important; margin-left: auto; margin-right: auto; font-family: Arial Narrow; width: auto !important; margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:left;"> ENLACE </th>
-   <th style="text-align:right;"> modificacion_humana </th>
-   <th style="text-align:right;"> accesibilidad_hospitales </th>
-   <th style="text-align:right;"> accesibilidad_hosp_caminado </th>
-   <th style="text-align:right;"> cubrimiento_cultivo </th>
-   <th style="text-align:right;"> cubrimiento_urbano </th>
-   <th style="text-align:right;"> luces_nocturnas </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> 100101 </td>
-   <td style="text-align:right;"> 0.8512 </td>
-   <td style="text-align:right;"> 0.6314 </td>
-   <td style="text-align:right;"> 8.2032 </td>
-   <td style="text-align:right;"> 0.4969 </td>
-   <td style="text-align:right;"> 82.3803 </td>
-   <td style="text-align:right;"> 61.6816 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 050201 </td>
-   <td style="text-align:right;"> 0.3896 </td>
-   <td style="text-align:right;"> 52.3864 </td>
-   <td style="text-align:right;"> 168.3625 </td>
-   <td style="text-align:right;"> 8.0452 </td>
-   <td style="text-align:right;"> 3.9507 </td>
-   <td style="text-align:right;"> 5.4292 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 050202 </td>
-   <td style="text-align:right;"> 0.3493 </td>
-   <td style="text-align:right;"> 38.2478 </td>
-   <td style="text-align:right;"> 162.7940 </td>
-   <td style="text-align:right;"> 6.1779 </td>
-   <td style="text-align:right;"> 1.6302 </td>
-   <td style="text-align:right;"> 2.4353 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 050203 </td>
-   <td style="text-align:right;"> 0.2800 </td>
-   <td style="text-align:right;"> 56.4654 </td>
-   <td style="text-align:right;"> 136.7688 </td>
-   <td style="text-align:right;"> 4.2257 </td>
-   <td style="text-align:right;"> 0.5977 </td>
-   <td style="text-align:right;"> 0.9202 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 050204 </td>
-   <td style="text-align:right;"> 0.2309 </td>
-   <td style="text-align:right;"> 73.5606 </td>
-   <td style="text-align:right;"> 189.4570 </td>
-   <td style="text-align:right;"> 4.5242 </td>
-   <td style="text-align:right;"> 0.5840 </td>
-   <td style="text-align:right;"> 0.4475 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 050205 </td>
-   <td style="text-align:right;"> 0.3025 </td>
-   <td style="text-align:right;"> 105.4853 </td>
-   <td style="text-align:right;"> 260.1237 </td>
-   <td style="text-align:right;"> 4.0241 </td>
-   <td style="text-align:right;"> 1.1075 </td>
-   <td style="text-align:right;"> 0.5929 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 050206 </td>
-   <td style="text-align:right;"> 0.4615 </td>
-   <td style="text-align:right;"> 33.5826 </td>
-   <td style="text-align:right;"> 133.0851 </td>
-   <td style="text-align:right;"> 14.9559 </td>
-   <td style="text-align:right;"> 3.4069 </td>
-   <td style="text-align:right;"> 2.6681 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 050207 </td>
-   <td style="text-align:right;"> 0.6151 </td>
-   <td style="text-align:right;"> 13.9386 </td>
-   <td style="text-align:right;"> 105.5657 </td>
-   <td style="text-align:right;"> 12.0439 </td>
-   <td style="text-align:right;"> 4.0286 </td>
-   <td style="text-align:right;"> 7.1367 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 050208 </td>
-   <td style="text-align:right;"> 0.3218 </td>
-   <td style="text-align:right;"> 48.4565 </td>
-   <td style="text-align:right;"> 134.1144 </td>
-   <td style="text-align:right;"> 5.3874 </td>
-   <td style="text-align:right;"> 1.4284 </td>
-   <td style="text-align:right;"> 1.8673 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 050209 </td>
-   <td style="text-align:right;"> 0.2043 </td>
-   <td style="text-align:right;"> 134.2056 </td>
-   <td style="text-align:right;"> 324.6904 </td>
-   <td style="text-align:right;"> 2.6433 </td>
-   <td style="text-align:right;"> 0.3586 </td>
-   <td style="text-align:right;"> 0.0286 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 050210 </td>
-   <td style="text-align:right;"> 0.2702 </td>
-   <td style="text-align:right;"> 56.6110 </td>
-   <td style="text-align:right;"> 173.5820 </td>
-   <td style="text-align:right;"> 4.6026 </td>
-   <td style="text-align:right;"> 0.5170 </td>
-   <td style="text-align:right;"> 1.6565 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 060301 </td>
-   <td style="text-align:right;"> 0.4137 </td>
-   <td style="text-align:right;"> 56.5053 </td>
-   <td style="text-align:right;"> 254.6072 </td>
-   <td style="text-align:right;"> 9.3719 </td>
-   <td style="text-align:right;"> 2.8411 </td>
-   <td style="text-align:right;"> 4.0678 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 060302 </td>
-   <td style="text-align:right;"> 0.3323 </td>
-   <td style="text-align:right;"> 46.2911 </td>
-   <td style="text-align:right;"> 247.5742 </td>
-   <td style="text-align:right;"> 4.5119 </td>
-   <td style="text-align:right;"> 1.1275 </td>
-   <td style="text-align:right;"> 1.7294 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 060303 </td>
-   <td style="text-align:right;"> 0.3136 </td>
-   <td style="text-align:right;"> 58.1096 </td>
-   <td style="text-align:right;"> 259.7428 </td>
-   <td style="text-align:right;"> 8.3016 </td>
-   <td style="text-align:right;"> 1.2898 </td>
-   <td style="text-align:right;"> 2.1443 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> 060304 </td>
-   <td style="text-align:right;"> 0.3264 </td>
-   <td style="text-align:right;"> 84.6066 </td>
-   <td style="text-align:right;"> 396.0371 </td>
-   <td style="text-align:right;"> 2.4981 </td>
-   <td style="text-align:right;"> 2.1171 </td>
-   <td style="text-align:right;"> 1.5881 </td>
-  </tr>
-</tbody>
-</table>
+
+
+|ENLACE | modificacion_humana| accesibilidad_hospitales| accesibilidad_hosp_caminado| cubrimiento_cultivo| cubrimiento_urbano| luces_nocturnas|
+|:------|-------------------:|------------------------:|---------------------------:|-------------------:|------------------:|---------------:|
+|100101 |              0.8512|                   0.6314|                      8.2032|              0.4969|            82.3803|         61.6816|
+|050201 |              0.3896|                  52.3864|                    168.3625|              8.0452|             3.9507|          5.4292|
+|050202 |              0.3493|                  38.2478|                    162.7940|              6.1779|             1.6302|          2.4353|
+|050203 |              0.2800|                  56.4654|                    136.7688|              4.2257|             0.5977|          0.9202|
+|050204 |              0.2309|                  73.5606|                    189.4570|              4.5242|             0.5840|          0.4475|
+|050205 |              0.3025|                 105.4853|                    260.1237|              4.0241|             1.1075|          0.5929|
+|050206 |              0.4615|                  33.5826|                    133.0851|             14.9559|             3.4069|          2.6681|
+|050207 |              0.6151|                  13.9386|                    105.5657|             12.0439|             4.0286|          7.1367|
+|050208 |              0.3218|                  48.4565|                    134.1144|              5.3874|             1.4284|          1.8673|
+|050209 |              0.2043|                 134.2056|                    324.6904|              2.6433|             0.3586|          0.0286|
+|050210 |              0.2702|                  56.6110|                    173.5820|              4.6026|             0.5170|          1.6565|
+|060301 |              0.4137|                  56.5053|                    254.6072|              9.3719|             2.8411|          4.0678|
+|060302 |              0.3323|                  46.2911|                    247.5742|              4.5119|             1.1275|          1.7294|
+|060303 |              0.3136|                  58.1096|                    259.7428|              8.3016|             1.2898|          2.1443|
+|060304 |              0.3264|                  84.6066|                    396.0371|              2.4981|             2.1171|          1.5881|
 
 ### Medida de resumen suma
 
@@ -911,49 +780,19 @@ rownames(cor_satelite) <- c("Suma", "Media")
 t(cor_satelite) %>% tba(cap = "Corelación de las variables satelitales \ny la estimación directa")
 ```
 
-<table class="table table-striped lightable-classic" style="width: auto !important; margin-left: auto; margin-right: auto; font-family: Arial Narrow; width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:unnamed-chunk-43)Corelación de las variables satelitales 
-y la estimación directa</caption>
- <thead>
-  <tr>
-   <th style="text-align:left;">   </th>
-   <th style="text-align:right;"> Suma </th>
-   <th style="text-align:right;"> Media </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> modificacion_humana </td>
-   <td style="text-align:right;"> -0.2028 </td>
-   <td style="text-align:right;"> -0.5018 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> accesibilidad_hospitales </td>
-   <td style="text-align:right;"> 0.0140 </td>
-   <td style="text-align:right;"> 0.2699 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> accesibilidad_hosp_caminado </td>
-   <td style="text-align:right;"> -0.0446 </td>
-   <td style="text-align:right;"> 0.2151 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> cubrimiento_cultivo </td>
-   <td style="text-align:right;"> -0.2582 </td>
-   <td style="text-align:right;"> -0.2252 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> cubrimiento_urbano </td>
-   <td style="text-align:right;"> -0.4682 </td>
-   <td style="text-align:right;"> -0.4248 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> luces_nocturnas </td>
-   <td style="text-align:right;"> -0.4673 </td>
-   <td style="text-align:right;"> -0.4964 </td>
-  </tr>
-</tbody>
-</table>
+
+
+Table: (\#tab:unnamed-chunk-43)Corelación de las variables satelitales 
+y la estimación directa
+
+|                            |    Suma|   Media|
+|:---------------------------|-------:|-------:|
+|modificacion_humana         | -0.2028| -0.5018|
+|accesibilidad_hospitales    |  0.0140|  0.2699|
+|accesibilidad_hosp_caminado | -0.0446|  0.2151|
+|cubrimiento_cultivo         | -0.2582| -0.2252|
+|cubrimiento_urbano          | -0.4682| -0.4248|
+|luces_nocturnas             | -0.4673| -0.4964|
 
 La tabla muestra los coeficientes de correlación entre las variables satelitales (suma y media) y la estimación directa para los dominios en la muestra. Se observa que la modificación humana tiene una correlación negativa con la estimación directa, tanto en la suma como en la media. Por otro lado, la accesibilidad a hospitales muestra una correlación positiva débil con la estimación directa en ambas medidas. La accesibilidad a hospitales caminando y el cubrimiento de cultivos presentan correlaciones negativas en la suma y correlaciones débiles en la media. Finalmente, el cubrimiento urbano y las luces nocturnas presentan correlaciones negativas en ambas medidas.
 
